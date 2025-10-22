@@ -1,0 +1,76 @@
+[versions]
+agp = "8.9.1"
+cameraCoreVersion = "1.4.2"
+coilCompose = "2.4.0"
+composeQrCode = "1.0.1"
+composeQrpainter = "0.0.1"
+core = "3.5.3"
+kotlin = "2.0.21"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotstep = "3.0.1"
+lifecycleRuntimeKtx = "2.8.7"
+activityCompose = "1.10.1"
+composeBom = "2024.09.00"
+navigationCompose = "2.8.9"
+materialIconsExtended = "1.7.8"
+playServicesCodeScanner = "16.1.0"
+sdkForAndroid = "8.1.0"
+serialization = "1.8.1"
+lifecycleRuntimeCompose = "2.9.0"
+hiltAndroid = "2.56.2"
+googleGmsGoogleServices = "4.4.2"
+firebaseAuth = "23.2.1"
+firebaseFirestore = "25.1.4"
+runtimeLivedata = "1.8.2"
+barcodeScanning = "17.3.0"
+cameraCamera2Version = "1.4.2"
+cameraLifecycleVersion = "1.4.2"
+cameraView = "1.4.2"
+accompanistPermissions = "0.37.3"
+
+[libraries]
+androidx-camera-core = { module = "androidx.camera:camera-core", version.ref = "cameraCoreVersion" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose" }
+compose-qr-code = { module = "com.lightspark:compose-qr-code", version.ref = "composeQrCode" }
+compose-qrpainter = { group = "dev.yveskalume", name = "compose-qrpainter", version = "composeQrpainter" }
+core = { module = "com.google.zxing:core", version.ref = "core" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-material-icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "materialIconsExtended" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serialization" }
+androidx-lifecycle-runtime-compose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "lifecycleRuntimeCompose" }
+kotstep = { module = "com.github.binayshaw7777:KotStep", version.ref = "kotstep" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtime-livedata", version.ref = "runtimeLivedata" }
+barcode-scanning = { group = "com.google.mlkit", name = "barcode-scanning", version.ref = "barcodeScanning" }
+camera-camera2 = { group = "androidx.camera", name = "camera-camera2", version.ref = "cameraCamera2Version" }
+camera-lifecycle = { group = "androidx.camera", name = "camera-lifecycle", version.ref = "cameraLifecycleVersion" }
+androidx-camera-view = { group = "androidx.camera", name = "camera-view", version.ref = "cameraView" }
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanistPermissions" }
+play-services-code-scanner = { module = "com.google.android.gms:play-services-code-scanner", version.ref = "playServicesCodeScanner" }
+sdk-for1-android = { module = "io.appwrite:sdk-for-android", version.ref = "sdkForAndroid" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hiltAndroid" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }

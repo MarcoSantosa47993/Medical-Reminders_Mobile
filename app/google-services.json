@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1069695804255",
+    "project_id": "medicinesappointmentreminders",
+    "storage_bucket": "medicinesappointmentreminders.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069695804255:android:a269f55c1bd470177d8cea",
+        "android_client_info": {
+          "package_name": "com.example.medicins_schedules"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0MX9riG2YGac3QAH_7geHC25ZY_ydxu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069695804255:android:6bee18eb565bcbe37d8cea",
+        "android_client_info": {
+          "package_name": "com.example.medicinsschedules"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0MX9riG2YGac3QAH_7geHC25ZY_ydxu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
